@@ -1,0 +1,29 @@
+.portfolio {
+    align-items: center;
+  
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .portfolio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1e0342;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  
+  h2{
+     color: #E1F7F5;
+     font-size: 35px;
+  }
+  
+  h3{
+      font-size: 20px;
+      color:#9AC8CD ;
+  }
+  
